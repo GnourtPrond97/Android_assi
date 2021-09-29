@@ -18,7 +18,7 @@ public class ListPaymentAct extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_payment);
+        setContentView(R.layout.fragment_home);
 
         db = new DBHelper(this);
         ListView lvPayment = (ListView) findViewById(R.id.lvPayment);
